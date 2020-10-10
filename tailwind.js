@@ -104,7 +104,7 @@ module.exports = {
         900: '#3c366b',
       },
       purple: {
-        100: '#faf5ff',
+        100: '#290474',
         200: '#e9d8fd',
         300: '#d6bcfa',
         400: '#b794f4',
@@ -115,7 +115,7 @@ module.exports = {
         900: '#44337a',
       },
       pink: {
-        100: '#fff5f7',
+        100: '#F4B4B7',
         200: '#fed7e2',
         300: '#fbb6ce',
         400: '#f687b3',
@@ -147,6 +147,9 @@ module.exports = {
       '56': '14rem',
       '64': '16rem',
     },
+    backgroundAttachment: theme => ({
+      "pattern": "url('/images/pattern.svg')"
+    }),
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {
       bottom: 'bottom',
