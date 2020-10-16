@@ -3,11 +3,10 @@ import React, { Component } from 'react'
 export default class Hero extends Component {
     render() {
         return (
-            <div className="justify text-center pt-25 font-mono bg-purple-100 pb-5">
+            <div className="text-center md:pt-25 lg:pt-25 font-mono bg-purple-100 pb-5 m-0">
                 <div className="inline-block w-11/12 md:w-6/12 lg:w-6/12 shadow-xl p-5">
-                    <h3 className="text-3xl pb-5 text-justify break-all md:text-center lg:text-center">Bringing you stories from the trenches on how tech
-                    insiders are building some of Africa's most impactful startups</h3>
-                        <p className="text-justify break-all">
+                    <h3 className="text-3xl pb-5 break-normal">Insights from the tech insiders building solutions for Africans.</h3>
+                        <p className="break-normal tracking-tighter">
                 The Decode Fintech Podcast is an audio show where the people building Africa’s 
                 financial infrastructure share what they’re seeing on the frontlines
                 — what’s working, what’s not, and what’s next.

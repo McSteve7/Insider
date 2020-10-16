@@ -5,26 +5,37 @@ export default class Newsletter extends Component {
     render() {
         return (
             
-            <div className="text-center" id="Newsletter">
-            <div className="inline-block w-10/12 md:w-8/12 lg:w-6/12">
-            <p>Subscribe to our Newsletter</p>
-                <div className="grid grid-cols-3 font-mono bg-pink-100">
-                    <div className="col-span-1">
-                        <img src={Logo} className="" />
-                    </div>
-                        <div className="col-span-2 text-center">
-                        <form className="md:mr-64 lg:mr-64 xl:mr-64">
-                         <input className="mt-6 px-0 py-2 sm-px-0 md:px-12 md:py-2 lg:px-15 lg:py-2 xl:py-2 rounded-lg" id="email" type="email" name="email" placeholder="Email address" required="required"></input>  
-                         <button className="mt-5 px-2 md:px-5 lg:px-5 py-1 md:py-2 lg:py-1 bg-purple-100 text-white">Subscribe</button>
-                        </form>
-                        </div>
-                        </div>
+            <div className="bg-pink-100 w-full py-6 px-4">
+            <div className="px-4 pt-3 pb-4 -mx-4 border-gray-400 text-center" id="Newsletter">
+                <div id="mc_embed_signup">
+                    <form className="mt-2" action="https://apeekpod.us2.list-manage.com/subscribe/post?u=be4acab1bc3c7c9796f5ace91&amp;id=c4c9f05687" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div className="max-w-xl mx-auto" id="mc_embed_signup_scroll">
+                        <h2 className="text-xl text-left pb-2 inline-block font-semibold text-gray-800">Join Our Newsletter</h2>
+                          
+                            <div className="flex items-center mc-field-group">
+                                <input className=" w-full px-2 py-4 mr-2  bg-gray-100 shadow-inner rounded-md border border-gray-400 required email focus:outline-none" type="email" name="EMAIL" id="mce-EMAIL" required="required"/>
+                                <button className="bg-purple-100 flex items-center px-5 py-2 rounded shadow " style={{marginLeft: -7.8 + 'rem'}}><input className="bg-purple-100 text-white" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" /></button>
+
+                            </div>
+                            <div id="mce-responses">
+		                        <div className="response" id="mce-error-response"></div>
+		                        <div className="response" id="mce-success-response"></div>
+	                        </div>
+
+                            <div className="hidden" aria-hidden="true"><input type="text" name="b_be4acab1bc3c7c9796f5ace91_c4c9f05687" tabindex="-1" value=""/></div>
+                                <div className="hidden"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" /></div>
+
+
                         
+                            
+                        </div>
+                    </form>
+                </div>          
             </div>
-            
             </div>
 
             
         )
     }
 }
+

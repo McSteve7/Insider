@@ -45,7 +45,7 @@ export default function Grid() {
                 {/*header*/}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t">
                   <h3 className="text-3xl font-semibold">
-                    Modal Title
+                    
                   </h3>
                   <button
                     className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
@@ -59,7 +59,7 @@ export default function Grid() {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-gray-600 text-lg leading-relaxed">
-                    Episode description
+                    Episode description is coming
                   </p>
                 </div>
                 {/*footer*/}
@@ -213,7 +213,7 @@ export default function Grid() {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <p className="my-4 text-gray-600 text-lg leading-relaxed">
-                    Episode description
+                    Episode description is coming
                   </p>
                 </div>
                 {/*footer*/}
