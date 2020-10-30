@@ -3,25 +3,20 @@ import grid from '../images/grid.png'
 import Modal from './Modal'
 
 export default function Grid() {
-        const [showModal, setShowModal] = React.useState(false);
 
         return (
-            <div className="text-center ">
+            <div className="text-center">
                 <div>
                     <p className="text-2xl font-bold text-center">LATEST EPISODES</p>
                 </div>
-            <div className="  items-stretch justify-items-stretch md:flex md:justify-center lg:flex content-center lg:justify-center xl:flex xl:justify-center gap-3 mt-10 text-center">
+            <div className="max-w-xs inline-block md:grid md:grid-cols-3 md:max-w-2xl lg:grid lg:grid-cols-3 lg:max-w-5xl gap-3 mt-10 text-center ml-auto mr-auto ">
 
             <>
-      <a
-        className="cursor-pointer shadow-xl rounded-lg"
-        type="button"
-        style={{ transition: "all .15s ease" }}
-        onClick={() => setShowModal(true)}
+      <div className="border-t-2 border-pink-100 rounded shadow-lg inline-block transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100"
       >
-                    <div className="flex-1 text-center">
-                    <img className="bg-pink-100" alt="Guest image" src={grid}></img>
-                    <div className="center"> 
+                    <div className=" text-center  ">
+                    <img className="" alt="Guest image" src={grid}></img>
+                    <div className="center space-x-4"> 
                     S1E1 - Navigating and Scaling the payment industy amidst
                     COVID-19 pandemic</div>
                       <hr/>
@@ -32,72 +27,13 @@ export default function Grid() {
                         
                          </span>
                   </div>       
-                   </a>
-      {showModal ? (
-        <>
-          <div
-            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-            onClick={() => setShowModal(false)}
-          >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
-                <div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t">
-                  <h3 className="text-3xl font-semibold">
-                    
-                  </h3>
-                  <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setShowModal(false)}
-                  >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                      ×
-                    </span>
-                  </button>
-                </div>
-                {/*body*/}
-                <div className="relative p-6 flex-auto">
-                  <p className="my-4 text-gray-600 text-lg leading-relaxed">
-                    Episode description is coming
-                  </p>
-                </div>
-                {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-gray-300 rounded-b">
-                  <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    style={{ transition: "all .15s ease" }}
-                    onClick={() => setShowModal(false)}
-                  >
-                    Close
-                  </button>
-                  <button
-                    className="bg-green-500 text-white active:bg-green-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    style={{ transition: "all .15s ease" }}
-                    onClick={() => setShowModal(false)}
-                  >
-                    Save Changes
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-        </>
-      ) : null}
+                   </div>
     </>
 
         {/*Second grid*/}
     <>
-      <a
-        className="cursor-pointer shadow-xl rounded-lg"
-        type="button"
-        style={{ transition: "all .15s ease" }}
-        onClick={() => setShowModal(true)}
-      >
-                    <div className="flex-1 text-center">
+      <div className="border-t-2 border-pink-100 shadow-lg rounded inline-block transition duration-500 ease-in-out transform hover:-translate-x-1 hover:scale-100 mt-10 md:mt-0 lg:mt-0">
+                    <div className="text-center">
                     <img className="" alt="Guest image" src={grid}></img>
                     <p className="text-center"> 
                     S1E1 - Navigating and Scaling the payment industy amidst
@@ -106,74 +42,14 @@ export default function Grid() {
                     <p>
                         Seun Runsewe - Director of Products, Opay
                     </p>
-                    <span className="">
-                        
-                         </span>
-                  </div>        </a>
-      {showModal ? (
-        <>
-          <div
-            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-            onClick={() => setShowModal(false)}
-          >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
-                <div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t">
-                  <h3 className="text-3xl font-semibold">
-                    Modal Title
-                  </h3>
-                  <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setShowModal(false)}
-                  >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                      ×
-                    </span>
-                  </button>
-                </div>
-                {/*body*/}
-                <div className="relative p-6 flex-auto">
-                  <p className="my-4 text-gray-600 text-lg leading-relaxed">
-                    Episode description
-                  </p>
-                </div>
-                {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-gray-300 rounded-b">
-                  <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    style={{ transition: "all .15s ease" }}
-                    onClick={() => setShowModal(false)}
-                  >
-                    Close
-                  </button>
-                  <button
-                    className="bg-green-500 text-white active:bg-green-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    style={{ transition: "all .15s ease" }}
-                    onClick={() => setShowModal(false)}
-                  >
-                    Save Changes
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-        </>
-      ) : null}
+                  </div>       
+                   </div>
+      
     </>
 
         {/*Third Grid*/}
     <>
-      <a
-        className="cursor-pointer shadow-xl rounded-lg"
-        type="button"
-        style={{ transition: "all .15s ease" }}
-        onClick={() => setShowModal(true)}
-      >
+      <div className="border-t-2 border-pink-100 shadow-lg rounded inline-block transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 mt-10 md:mt-0 lg:mt-0">
                     <div className="text-center">
                     <img className="" alt="Guest image" src={grid}></img>
                     <p className=""> 
@@ -183,68 +59,11 @@ export default function Grid() {
                     <p>
                         Seun Runsewe - Director of Products, Opay
                     </p>
-                    <span className="">
-                        
-                         </span>
-                  </div>        </a>
-      {showModal ? (
-        <>
-          <div
-            className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
-            onClick={() => setShowModal(false)}
-          >
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
-              {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                {/*header*/}
-                <div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t">
-                  <h3 className="text-3xl font-semibold">
-                    Modal Title
-                  </h3>
-                  <button
-                    className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
-                    onClick={() => setShowModal(false)}
-                  >
-                    <span className="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                      ×
-                    </span>
-                  </button>
-                </div>
-                {/*body*/}
-                <div className="relative p-6 flex-auto">
-                  <p className="my-4 text-gray-600 text-lg leading-relaxed">
-                    Episode description is coming
-                  </p>
-                </div>
-                {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-gray-300 rounded-b">
-                  <button
-                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    style={{ transition: "all .15s ease" }}
-                    onClick={() => setShowModal(false)}
-                  >
-                    Close
-                  </button>
-                  <button
-                    className="bg-green-500 text-white active:bg-green-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                    style={{ transition: "all .15s ease" }}
-                    onClick={() => setShowModal(false)}
-                  >
-                    Save Changes
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
-        </>
-      ) : null}
+                    
+                  </div>     
+                     </div>
+    
     </>
-    
-    
-
              </div>
             </div>
             

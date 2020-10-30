@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import Logo from '../images/logo.png'
+import ScriptTag from 'react-script-tag'
+
+const Form = props => (<script async data-uid="56a42fced3" src="https://skilled-author-111.ck.page/56a42fced3/index.js"></script>
+)
 
 export default class Newsletter extends Component {
     render() {
         return (
             
-            <div className="bg-pink-100 w-full py-6 px-4">
+            <div>
+            <div className=" w-full py-6 px-4">
             <div className="px-4 pt-3 pb-4 -mx-4 border-gray-400 text-center" id="Newsletter">
                 <div id="mc_embed_signup">
                     <form className="mt-2" action="https://apeekpod.us2.list-manage.com/subscribe/post?u=be4acab1bc3c7c9796f5ace91&amp;id=c4c9f05687" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -33,8 +38,8 @@ export default class Newsletter extends Component {
                 </div>          
             </div>
             </div>
-
-            
+            <fieldset src={this.Form} />
+            </div>
         )
     }
 }

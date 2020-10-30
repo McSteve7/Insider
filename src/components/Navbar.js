@@ -6,7 +6,7 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 navbar-expand-lg bg-purple-100 pb-10 mb-1">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 navbar-expand-lg bg-purple-100 h-auto pb-20 mb-1">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
@@ -43,8 +43,8 @@ export default function Navbar({ fixed }) {
           </div>
         </div>
 
-        <div className="text-center  md:pt-25 lg:pt-25 font-san-serif bg-purple-100 pb-5">
-                <div className="inline-block w-11/12 md:w-6/12 lg:w-6/12 shadow-xl p-5">
+        <div className="text-center  md:pt-25 lg:pt-25 font-san-serif pb-5">
+                <div className="inline-block w-11/12 md:w-10/12 lg:w-8/12 shadow-xl p-5 pb-10">
                     <h3 className="text-xl md:text-3xl lg:text-3xl font-bold pb-5 break-normal">Insights from the tech insiders building solutions for Africans.</h3>
                         <p className="break-normal tracking-tighter">
                 The Decode Fintech Podcast is an audio show where the people building Africa’s 
@@ -53,23 +53,25 @@ export default function Navbar({ fixed }) {
                 In each episode, an operator breaks down the ground truth of how they’re 
                 handling everything from product development to marketing in some of the 
                 world’s fastest-changing business environments.
-                <br/>
+                <br/> <br/>
                 Subscribe now on:</p>
-                <div className="pt-5">
-                    <a href="#">
-                    <span className="border p-2 mr-2"><i class="fab fa-spotify"> Spotify </i></span>   
+
+                <div className="pt-5 grid grid-cols-2 gap-3 md:inline-block lg:inline-block md:space-x-5 lg:space-x-5">
+
+                    <a className="border px-2 py-2" href="#">
+                    <span className=""><i class="fab fa-spotify"> Spotify </i></span>   
                     </a>
 
-                    <a href="#">
-                        <span className="border p-2 mr-2"><i class="fab fa-spotify"> Google Podcast </i></span>    
+                    <a className="px-2 py-2 border" href="#">
+                        <span className=""><i class="fab fa-spotify"> Google Podcast </i></span>    
                     </a>
 
-                    <a href="#">
-                        <span className="border p-2 mr-2"><i class="fab fa-spotify"> SoundCloud </i></span>    
+                    <a className="py-2 px-2 border" href="#">
+                        <span className=""><i class="fab fa-soundcloud"></i> SoundCloud</span>    
                     </a>
 
-                    <a href="#">
-                        <span className="border p-2  md:mr-0 lg:mr-0"><i class="fab fa-spotify"> Apple Podcast </i></span>    
+                    <a className="py-2 px-2 border" href="#">
+                        <span className=""><i class="fab fa-spotify"> Apple Podcast </i></span>    
                     </a>
                     </div>
                 </div>
