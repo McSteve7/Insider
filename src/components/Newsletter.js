@@ -18,7 +18,7 @@ export default class Newsletter extends Component {
                         <h2 className="text-xl text-left pb-2 inline-block font-semibold text-gray-800">Join Our Newsletter</h2>
                           
                             <div className="flex items-center mc-field-group">
-                                <input className=" w-full px-2 py-4 mr-2  bg-gray-100 shadow-inner rounded-md border border-gray-400 required email focus:outline-none" type="email" name="EMAIL" id="mce-EMAIL" required="required"/>
+                                <input className="focus:bg-white focus:shadow w-full px-2 py-4 mr-2  bg-gray-100 shadow-inner rounded-md border border-gray-400 required email focus:outline-none" type="email" name="EMAIL" id="mce-EMAIL" required="required"/>
                                 <button className="bg-purple-100 flex items-center px-5 py-2 rounded shadow " style={{marginLeft: -7.8 + 'rem'}}><input className="bg-purple-100 text-white" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" /></button>
 
                             </div>
