@@ -51,23 +51,21 @@ export default function Navbar({ fixed }) {
 
         <div className="text-center  md:pt-25 lg:pt-25 font-san-serif pb-5">
                 <div className="inline-block w-11/12 md:w-10/12 lg:w-8/12 shadow-xl p-5 pb-10">
-                    <h3 className="text-xl md:text-xl lg:text-xl font-bold pb-5 break-normal">Insights from the tech insiders building solutions for Africans.</h3>
-                        <p className="break-normal tracking-tighter text-sm md:text-base lg:text-base">
-                The Decode Fintech Podcast is an audio show where the people building Africa’s 
-                financial infrastructure share what they’re seeing on the frontlines
-                — what’s working, what’s not, and what’s next.
-                In each episode, an operator breaks down the ground truth of how they’re 
-                handling everything from product development to marketing in some of the 
-                world’s fastest-changing business environments.
+                    <h3 className="text-xl md:text-xl lg:text-xl font-bold pb-5 break-normal">Insights from the insiders building tech solutions for Africans and the entire World</h3>
+                        <p className="font-normal text-center md:text-justify lg:text-justify tracking-tighter text-sm md:text-base lg:text-base">
+                A Peek Inside Podcast showcase insiders in the African tech ecosystem building compelling products to solve users' pain points.
+                We chat with individuals across various departments like Product, Marketing, Design, Engineering, Customer Success, Finance, and lot more.
+                They will tell us how they got into the role and what their day-to-day is like for them at their company.
+                Interested in knowing how tech companies come up with their strategies, plans, and initiatives? Then this is the podcast for you.
                 <br/> <br/>
                 
-                <p className="font-bold">Subscribe now on:</p>
+                <p className="font-medium">Listen now on:</p>
                 
                 </p>
 
-                <div className="text-xs font-bold md:text-xs lg:text-sm pt-5 grid grid-cols-2 gap-3 md:grid md:grid-cols-4 lg:grid lg:grid-cols-4 md:space-x-1 lg:space-x-1">
+                <div className="text-center text-xs font-medium md:text-xs lg:text-sm pt-5 grid gap-3 md:grid md:grid-cols-4 lg:grid lg:grid-cols-4 md:space-x-1 lg:space-x-1">
 
-          
+                
                     
                 <div className="rounded border flex bg-white text-purple-100">
                         <a href="https://anchor.fm/a-peek-inside-podcast" className="flex items-center">
@@ -79,11 +77,6 @@ export default function Navbar({ fixed }) {
                         </a>    
                     </div>
     
-
-                    <div className="rounded px-2 py-2 border bg-white text-purple-100">
-                      <a href=""> <span className="text-xs md:text-xs lg:text-base"><i class=" mt-2 pr-2 text-purple-100 fa-lg fab fa-spotify"> </i> Spotify </span> </a>
-                    </div>
-                  
                     <div className="rounded border flex bg-white text-purple-100">
                         <a href="#" className="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className="text-purple-100 h-8 w-8 fill-current ml-4">

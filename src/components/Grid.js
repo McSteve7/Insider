@@ -16,6 +16,7 @@ export default function Grid() {
       <div className="pb-20 border-t-2 border-pink-100 rounded shadow-lg inline-block transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100"
       >
                     <div className="">
+                      <a href="https://anchor.fm/a-peek-inside-podcast">
                     <img className="" alt="Guest image" src={grid}></img>
                     <div>
                       <hr/>
@@ -27,14 +28,17 @@ export default function Grid() {
                         Seun Runsewe - Director of Products, Opay
                     </p>
                       </div>
-                  </div>       
+                  </a>
+                  </div>
+                  
                    </div>
     </>
 
         {/*Second grid*/}
     <>
       <div className="pb-20 border-t-2 border-pink-100 shadow-lg rounded inline-block transition duration-500 ease-in-out transform hover:-translate-x-1 hover:scale-100 mt-10 md:mt-0 lg:mt-0">
-                    <div className="text-center">
+                   
+                   <a href="https://anchor.fm/a-peek-inside-podcast">
                     <img className="" alt="Guest image" src={grid}></img>
                     <div>
                       <hr/>
@@ -46,7 +50,7 @@ export default function Grid() {
                         Seun Runsewe - Director of Products, Opay
                     </p>
                       </div>
-                  </div>       
+                      </a> 
                    </div>
       
     </>
@@ -54,7 +58,8 @@ export default function Grid() {
         {/*Third Grid*/}
     <>
       <div className="pb-20 border-t-2 border-pink-100 shadow-lg rounded inline-block transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100 mt-10 md:mt-0 lg:mt-0">
-                    <div className="text-center">
+                    
+                    <a href="https://anchor.fm/a-peek-inside-podcast">
                     <img className="" alt="Guest image" src={grid}></img>
                     <div>
                       <hr/>
@@ -66,7 +71,7 @@ export default function Grid() {
                         Seun Runsewe - Director of Products, Opay
                     </p>
                       </div>
-                  </div>     
+                     </a>
                      </div>
     
     </>
