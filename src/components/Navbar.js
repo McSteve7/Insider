@@ -53,7 +53,7 @@ export default function Navbar({ fixed }) {
                 <div className="inline-block w-11/12 md:w-10/12 lg:w-8/12 shadow-xl p-5 pb-10">
                     <h3 className="text-xl md:text-xl lg:text-xl font-bold pb-5 break-normal">Insights from the insiders building tech solutions for Africans and the entire World</h3>
                         <p className="font-normal text-center md:text-justify lg:text-justify tracking-tighter text-sm md:text-base lg:text-base">
-                A Peek Inside Podcast showcase insiders in the African tech ecosystem building compelling products to solve users' pain points.
+                A Peek Inside Podcast showcases insiders in the African tech ecosystem building compelling products to solve users' pain points.
                 We chat with individuals across various departments like Product, Marketing, Design, Engineering, Customer Success, Finance, and lot more.
                 They will tell us how they got into the role and what their day-to-day is like for them at their company.
                 Interested in knowing how tech companies come up with their strategies, plans, and initiatives? Then this is the podcast for you.
@@ -63,7 +63,7 @@ export default function Navbar({ fixed }) {
                 
                 </p>
 
-                <div className="text-center text-xs font-medium md:text-xs lg:text-sm pt-5 grid gap-3 md:grid md:grid-cols-4 lg:grid lg:grid-cols-4 md:space-x-1 lg:space-x-1">
+                <div className="text-center text-xs font-medium md:text-xs lg:text-sm pt-5 grid grid-cols-2 gap-3 md:grid md:grid-cols-4 lg:grid lg:grid-cols-4 md:space-x-1 lg:space-x-1">
 
                 
                     
