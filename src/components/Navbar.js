@@ -49,10 +49,10 @@ export default function Navbar({ fixed }) {
           </div>
         </div>
 
-        <div className="text-center  md:pt-25 lg:pt-25 font-san-serif pb-5">
+        <div className="text-center  md:pt-25 lg:pt-25 pb-5">
                 <div className="inline-block w-11/12 md:w-10/12 lg:w-8/12 shadow-xl p-5 pb-10">
-                    <h3 className="text-xl md:text-xl lg:text-xl font-bold pb-5 break-normal">Insights from the insiders building tech solutions for Africans and the entire World</h3>
-                        <p className="font-normal text-center md:text-justify lg:text-justify tracking-tighter text-sm md:text-base lg:text-base">
+                    <h3 className="font-serif text-xl md:text-xl lg:text-xl font-bold pb-5 break-normal">Insights from tech insiders building your Favorite App and Startup</h3>
+                        <p className="font-san-serif font-normal text-center md:text-justify lg:text-justify tracking-tighter text-sm md:text-base lg:text-base">
                 A Peek Inside Podcast showcases insiders in the African tech ecosystem building compelling products to solve users' pain points.
                 We chat with individuals across various departments like Product, Marketing, Design, Engineering, Customer Success, Finance, and lot more.
                 They will tell us how they got into the role and what their day-to-day is like for them at their company.

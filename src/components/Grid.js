@@ -20,11 +20,11 @@ export default function Grid() {
                     <img className="" alt="Guest image" src={grid}></img>
                     <div>
                       <hr/>
-                    <p className="text-sm font-bold pb-2 pt-2"> 
+                    <p className="text-sm font-bold pb-2 pt-2 font-serif"> 
                     S1E1 - Navigating and Scaling the payment industy amidst
                     COVID-19 pandemic</p>
                       < hr/>
-                    <p className="text-sm">
+                    <p className="text-sm font-san-serif">
                         Seun Runsewe - Director of Products, Opay
                     </p>
                       </div>
@@ -42,11 +42,11 @@ export default function Grid() {
                     <img className="" alt="Guest image" src={grid}></img>
                     <div>
                       <hr/>
-                    <p className="text-sm font-bold pb-2 pt-2"> 
+                    <p className="text-sm font-bold pb-2 pt-2 font-serif"> 
                     S1E1 - Navigating and Scaling the payment industy amidst
                     COVID-19 pandemic</p>
                       <hr/>
-                    <p className="text-sm">
+                    <p className="text-sm font-san-serif">
                         Seun Runsewe - Director of Products, Opay
                     </p>
                       </div>
@@ -63,11 +63,11 @@ export default function Grid() {
                     <img className="" alt="Guest image" src={grid}></img>
                     <div>
                       <hr/>
-                    <p className="text-sm font-bold pb-2 pt-2"> 
+                    <p className="text-sm font-bold pb-2 pt-2 font-serif"> 
                     S1E1 - Navigating and Scaling the payment industy amidst
                     COVID-19 pandemic</p>
                       <hr/>
-                    <p className="text-sm">
+                    <p className="text-sm font-san-serif">
                         Seun Runsewe - Director of Products, Opay
                     </p>
                       </div>
